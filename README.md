@@ -52,15 +52,15 @@ uploading sketches or simply upload using the ISP.
 The five switches can be used to control how buttons are mapped to the emulated 
 XBox 360 controller. By default:
 
-|XBox    |GameCube        |Genesis|
------------------------------------
-|Start   |Start           |Start  |
-|A       |A               |A      |
-|B       |B               |B      |
-|X       |X               |X      |
-|Y       |Y               |Y      |
-|L Bumper|L Trigger Button|C      |
-|R Bumper|R Trigger Button|Mode   |
+| XBox     | GameCube         | Genesis |
+| -------- | ---------------- | ------- |
+| Start    | Start            | Start   |
+| A        | A                | A       |
+| B        | B                | B       |
+| X        | X                | X       |
+| Y        | Y                | Y       |
+| L Bumper | L Trigger Button | C       |
+| R Bumper | R Trigger Button | Mode    |
 
 - SW1: Swap A&B, X&Y
 - SW2: Z maps to R Bumper
