@@ -6,6 +6,9 @@ a time (if both controllers are plugged in, the GameCube controller is used).
 
 ![Photo of the adapter](../assets/Photo.jpg)
 
+**TODO:**
+- Find a way to toggle between XInput and DInput with a switch.
+
 ## Parts
 
 - Arduino Micro
