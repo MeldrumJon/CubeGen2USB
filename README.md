@@ -4,6 +4,8 @@ USB to GameCube and Sega Genesis adapter.  Works for both XInput and DInput
 (depending on which Arduino sketch is used). Only one controller may be used at 
 a time (if both controllers are plugged in, the GameCube controller is used).
 
+![Photo of the adapter](../assets/Photo.jpg)
+
 ## Parts
 
 - Arduino Micro
@@ -67,4 +69,8 @@ XBox 360 controller. By default:
 - SW3: 
 - SW4: 
 - SW5: 
+
+## Schematic
+
+![Circuit Schematic](../assets/Schematic.png)
 
