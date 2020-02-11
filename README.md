@@ -1,6 +1,6 @@
 # CubeGen2USB
 
-USB to GameCube and Sega Genesis adapter.  Works for both XInput and DInput 
+GameCube and Sega Genesis to USB adapter.  Works for both XInput and DInput 
 (depending on which Arduino sketch is used). Only one controller may be used at 
 a time (if both controllers are plugged in, the GameCube controller is used).
 
