@@ -1,0 +1,2 @@
+- Find a way to toggle between XInput and DInput with a switch.
+

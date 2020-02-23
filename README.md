@@ -6,9 +6,6 @@ a time (if both controllers are plugged in, the GameCube controller is used).
 
 ![Photo of the adapter](../assets/Photo.jpg)
 
-**TODO:**
-- Find a way to toggle between XInput and DInput with a switch.
-
 ## Parts
 
 - Arduino Micro
@@ -24,17 +21,29 @@ Be careful when soldering the GameCube extension cable wires onto the PCB.  Use
 but disregard the wire colors.  Use a continuity tester to determine which wire 
 is connected to each pin.
 
-## DInput Setup
+## PCB
 
-### Libraries
+KiCAD files are in the [hardware](./hardware) folder.
+
+![Circuit Schematic](../assets/Schematic.png)
+
+3rd-party KiCAD libaries used:
+
+- [Arduino KiCAD Library](https://github.com/Alarm-Siren/arduino-kicad-library)
+
+## Programming
+
+### DInput Setup
+
+#### Required Libraries
 
 - [SegaController by Jon Thysell](https://github.com/jonthysell/SegaController)
 - Nintendo by NicoHood
 - HID-Project by NicoHood
 
-## XInput Setup
+### XInput Setup
 
-### Hardware Setup
+#### Hardware Setup
 
 1. Download
 [XInput USB Core for Arduino AVR](https://github.com/dmadison/ArduinoXInput_AVR) 
@@ -46,13 +55,13 @@ can be used as an ISP](https://www.arduino.cc/en/tutorial/arduinoISP)).
 Once the bootloader is burned, you will have to press the reset button when 
 uploading sketches or simply upload using the ISP.
 
-### Libraries
+#### Required Libraries
 
 - [SegaController by Jon Thysell](https://github.com/jonthysell/SegaController)
 - Nintendo by NicoHood
 - XInput by David Madison
 
-### Features
+## Features
 
 The five switches can be used to control how buttons are mapped to the emulated 
 XBox 360 controller. By default:
@@ -72,8 +81,4 @@ XBox 360 controller. By default:
 - SW3: 
 - SW4: 
 - SW5: 
-
-## Schematic
-
-![Circuit Schematic](../assets/Schematic.png)
 
